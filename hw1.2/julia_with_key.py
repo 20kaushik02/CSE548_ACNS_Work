@@ -33,5 +33,5 @@ with open("3/withkey/juliakey.txt", "r") as julia_key_file, open(
     with open("test.gz", "wb") as f:
         f.write(result)
     with gzip.open("test.gz", "r") as gf:
-        print(gf.read().decode())
+        print("answer starts here-----"+gf.read().decode()+"-----ends here")
     os.remove("test.gz")
