@@ -1,7 +1,6 @@
 a - caesar
 left shift:
 ROPORTIONATELYQUIDSMEDALLIONMICHELOBSICEBOXWEAKFISHSCUSTOMSINDOCTRINATEINQUIRERSANCTIFIEDCHAFFSEISMOLOGYSPERCALESCHISHOLMSBRAGGERSSTUMBLEDTWERKINGUROLOGISTSPROSPECTUSESBUNSENPRISSIESTINQUIRINGBRANCHES
-
 (right shift gave:)
 NKLKNPEKJWPAHUMQEZOIAZWHHEKJIEYDAHKXOEYAXKTSAWGBEODOYQOPKIOEJZKYPNEJWPAEJMQENANOWJYPEBEAZYDWBBOAEOIKHKCUOLANYWHAOYDEODKHIOXNWCCANOOPQIXHAZPSANGEJCQNKHKCEOPOLNKOLAYPQOAOXQJOAJLNEOOEAOPEJMQENEJCXNWJYDAO
 which is not english text, also sha512 sum doesn't match
@@ -10,8 +9,13 @@ a - julia
 (the thing has a space at the end lol)
 mile Vinay and Joseph Gaussinthough not with the speed and ease of a typewriter keyboard. Rather it was the assimilation of encipherment into the overall communication process. Vernam created what came to be called "on-line encipherment" (because it was done directly on the open telegraph circuit) to distinguish it from the old, separate, off-line encipherment. He freed a fundamental process in cryptography from the shackles of time and error. He eliminated a human beingthe cipher clerkfrom the chain of communication. His great contribution was to bring to cryptography the automation that had benefited mankind so much in so many fields of endeavor. These values were immediately recognized, and Ver-nam's idea quickly kicked up a flurry of activity. He put it down on paper in a sketch dated December 17. A.T. & T. notified the Navy, with which it had worked closely in a communications demonstration the previous year, and on February 18, 1918, Vernam, Parker, Lyman F. Morehouse, equipment 
 
+
 b - caesar
+simply bruteforce, only 26 possibilities
 key shift 3, left shift gives:
 EMASWALDSRINGSHIGHLANDSSNOOTIESTASCENDSETTERSFLARESTHINKINGSCARPINGSEDERSSWELLEDMERCILESSOVERSENSITIVEADVENTURERDIVANSYPSILANTISJOCASTAHEADRESTSDISSERTATIONSJOISTSBUSSSERAPUPPETRYSBUNTEDAMPHITHEATRESSTEREOSUNJUSTIFIEDZEPHYRUSSABDICATIONSHUSSERLPALMISTFERALMANNERLEONIDSDILLONSWHEREFORESFERTILIZEDDUCKBILLDUNNESSCORESHAIRCUTBOTTICELLIREPELGLIDESFELICESBRAINSTORMINGSCLEMENCYREDOINGMEDICAIDSBLUNDERBUSS
 
 b - julia
+gzip header includes filename. filename is 14 chars, key is 12 chars, so first and thirteenth character have same key byte, get rotation from that and then 
+(the thing has a space at the end lol, also intentional typos?)
+All work and no play makes Jack a dull boy.All work and no play makes Jack a dull boy.All woRk and no play makes Jack a dull boy.All work and ho play maoes Jack a dull boy.All work and no plAy makes Jack a dull boy.Alk work and no plAy makes Jack a dull boy.All work and no play makes Jack a dull boy.All work and no pLay maksa Jack a dull boy.All work and no play makes Jack a dull boy.All 
