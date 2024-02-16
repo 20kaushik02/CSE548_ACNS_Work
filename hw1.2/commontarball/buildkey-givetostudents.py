@@ -9,7 +9,7 @@ def wrap64(string):
     return '\n'.join(textwrap.wrap(string,64))
 
 bitsknownint = 0
-
+prev_tryabit, prev_i = 0, 255
 for line in fileinput.input():
     if len(line) > 10:
         firstline = line
@@ -21,8 +21,12 @@ for line in fileinput.input():
     tryabit = hint & 1
     i = hint >> 1
 # All you have to do is figure out what YYY and ZZZ should be...
-    if (YYY):
-        ZZZ
+    if(i != prev_i):
+        bitsknownint = (bitsknownint << 1) | prev_tryabit
+    prev_tryabit, prev_i = tryabit, i
+
+# putting in the right order
+bitsknownint = int("{0:b}".format(bitsknownint)[::-1],2)
 
 #while (len(bitsknown) < 256):
 #    i = 255 - len(bitsknown)

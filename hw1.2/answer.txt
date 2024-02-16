@@ -19,3 +19,6 @@ b - julia
 gzip header includes filename. filename is 14 chars, key is 12 chars, so first and thirteenth character have same key byte, get rotation from that and then 
 (the thing has a space at the end lol, also intentional typos?)
 All work and no play makes Jack a dull boy.All work and no play makes Jack a dull boy.All woRk and no play makes Jack a dull boy.All work and ho play maoes Jack a dull boy.All work and no plAy makes Jack a dull boy.Alk work and no plAy makes Jack a dull boy.All work and no play makes Jack a dull boy.All work and no pLay maksa Jack a dull boy.All work and no play makes Jack a dull boy.All 
+
+c - rsa
+ater intrusion detection systems used adaptive meth-ods involving neural networks and Petri nets to improve their detection abilities.One system, IDIOT [538], monitors audit logs looking for a sequence ofevents that correspond to an attack. An alternative point of view, used by the STATsystem [456], is to ignore the actual states and focus on the commands that changethem. Researchers at the Univer
